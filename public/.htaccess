@@ -1,0 +1,13 @@
+#---------------------------------------------------------------------------------------
+#    Title: PHP Router
+#    Author: n/a
+#    Date: April 13, 2024
+#    Code version: n/a
+#    Availability: https://phprouter.com/
+#
+#---------------------------------------------------------------------------------------
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.*) index.php [QSA,L]
