@@ -1,2 +1,1 @@
-# Ghibli Cafe
-A Ghibli-themed café inspired by the legendary director Hayao Miyazaki offers a whimsical and magical atmosphere, where beloved characters and enchanting settings from Studio Ghibli films come to life. With rustic, nature-infused decor reminiscent of Totoro's forest and Spirited Away's bathhouse, the café provides a cozy escape into Miyazaki’s world. The menu features creatively named dishes and drinks inspired by iconic scenes, such as "Howl's Moving Castle Cake" or "Catbus Cappuccino." It's a perfect spot for fans to enjoy a meal surrounded by the nostalgic and serene charm of Miyazaki’s storytelling.
+# TOM N TOMS COFEE
