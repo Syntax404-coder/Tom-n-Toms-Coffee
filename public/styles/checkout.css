@@ -1,0 +1,262 @@
+/* Reset default padding and margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Helvetica, sans-serif;
+    height: 100%;
+    background-color: #f4f4f4;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.checkout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 360px;
+    margin: 0 auto; 
+}
+
+.checkout-name {
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-weight: bold;
+    color: #201D1B;
+}
+
+.checkout-x {
+    font-size: 24px;
+    cursor: pointer;
+    color: #000;
+    margin-left: 20px;
+    height: 27px;
+    width: 27px;
+}
+
+/* Adjusting the header */
+header {
+    max-width: 430px;
+    padding: 10px;
+    border:0px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #00000024;
+    background-color: white;
+    height: 160px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a {
+    font-family: Helvetica, sans-serif;
+    font-weight: normal; 
+    font-size: 16px;
+    line-height: 1.2; 
+    letter-spacing: 0; 
+}
+
+.a-icon{
+    height: 16px;
+    width: 18px;
+}
+/* Main Content */
+.order {
+    max-width: 430px;
+    height: 138px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    position: relative; /* Make the parent container relatively positioned */
+    padding: 0 20px;
+}
+
+.order-number {
+    min-width: 43px;
+    min-height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #201D1B;
+    border-radius: 3px;
+}
+
+.order-number-counter {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0;
+}
+.order-number-icon{
+    height: 18px;
+    width: 18px;
+}
+
+.order-picture {
+    width: 80px;
+    height: 80px;
+    margin-left: 8px;
+}
+
+.order-name {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0;
+    margin-left: 8px;
+}
+
+.order-price {
+    position: absolute; /* Use absolute positioning */
+    right: 20px; /* Align the price with respect to the right edge */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align price and trashcan to the right */
+}
+
+.order-price-counter {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.order-price-trashcan {
+    height: 19px;
+    width: 19px;
+    margin-top: 5px;
+}
+
+/* Payment Section Styles */
+.payment {
+    background-color: white;
+    max-width: 430px;
+    border-top: 1px solid #00000024;
+}
+
+.payment-section{
+    height: 175px;
+    margin-left: 30px;
+}
+
+/* Payment Method Title */
+.payment-method-title {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold; 
+    font-size: 20px;
+    line-height: 1.2; 
+    letter-spacing: 0; 
+}
+/* Red Dot (Asterisk) Style */
+.red-dot {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.payment-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border:0px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #00000024
+
+}
+
+/* Payment Option */
+.payment-option {
+    display: flex;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.payment-option input[type="radio"] {
+    margin-right: 10px;
+}
+
+.payment-note {
+    font-size: 14px;
+    color: #888;
+    margin-top: 5px;
+}
+
+.total{
+    max-width: 430px;
+    height: 250px;
+    background-color: white;
+}
+.total-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 363px;
+}
+
+.total-text {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold; 
+    font-size: 20px;
+    line-height: 1.2; 
+    letter-spacing: 0; 
+}
+
+.total-amount {
+    font-size: 20px;
+    font-weight: bold;
+    color: #201D1B; 
+}
+
+/* Terms and Conditions */
+.terms {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 15px;
+    color: #555;
+    margin-left: 40px;
+    width: 363px;
+}
+
+/* Place Order Button */
+.place-order {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.order-button {
+    padding: 10px 20px;
+    background-color: #00286e;
+    color: white;
+    border: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 369px;
+}
+
+.order-button:hover {
+    background-color: #001a47;
+}
