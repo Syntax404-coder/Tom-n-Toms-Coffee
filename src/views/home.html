@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tom's Cafe</title>
+    <link rel="stylesheet" href="/public/styles/home.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-row">
+                <img src="/public/assets/icons/Tom’s-cafe.png" alt="Tom's Cafe" class="cafe-logo">
+                <div class="cart-container">
+                    <img src="/public/assets/icons/Shopping-cart.png" alt="Cart Icon" class="cart-icon">
+                    <div class="cart-count">0</div>
+                </div>
+            </div>
+        </div>
+    </header>    
+
+    <div class="cafe-image">
+        <img src="/public/assets/images/cafe-scene.png" alt="Cafe Scene">
+    </div>
+
+    <section class="table-info">
+        <p><img src="/public/assets/icons/Table.png" alt="Table Icon"/> Table A9</p>
+        <h3>Reminders</h3>
+        <div class="reminders">
+            <ul>
+                <li>Every guest is required to order a minimum of 1 drink</li>
+                <li>Be advised to proceed to the counter once the order is complete</li>
+                <li>Wifi: <strong>GSHSIHVSIIH</strong> Password: <strong>HIUODUWDBOU D</strong></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="menu">
+        <h2>Menu</h2>
+        <div class="menu-tabs">
+            <button id="food-tab" class="active" onclick="showMenu('food')">Food</button>
+            <button id="drinks-tab" onclick="showMenu('drinks')">Drinks</button>
+        </div>
+        
+        <div id="food-menu" class="menu-section active">
+            <div class="menu-item">
+                <div class="menu-item-content">
+                    <h4><strong class="food-label">Food</strong> <span class="item-count">6 items</span></h4>
+                    <h4 class="price">$50</h4>
+                    <p><strong>Roasted Chicken Wrap</strong></p>
+                    <p>A roasted chicken wrap with a hint of roasted chicken and a burst of flavor.</p>
+                </div>
+                <img src="/public/assets/images/Roasted Chicken Wrap 1.png" alt="Roasted Chicken Wrap" class="menu-item-image">
+                <button class="add-to-cart">+</button>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-content">
+                    <h4 class="price">$50</h4>
+                    <p><strong>Chili Chicken Pretzels</strong></p>
+                    <p>Spicy pretzels with chicken filling.</p>
+                </div>
+                <img src="/public/assets/images/Hot Chili Chicken Pretzels.png" alt="Hot Chili Chicken Pretzels" class="menu-item-image">
+                <button class="add-to-cart">+</button>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-content">
+                    <h4 class="price">$50</h4>
+                    <p><strong>Apple Cream Cheese</strong></p>
+                    <p>A delightful mix of apple and cream cheese filling in a warm pastry.</p>
+                </div>
+                <img src="/public/assets/images/Apple Cream Cheese Pretzel Bagel 1.png" alt="Apple Cream Cheese" class="menu-item-image">
+                <button class="add-to-cart">+</button>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-content">
+                    <h4 class="price">$50</h4>
+                    <p><strong>Green Tea Cake</strong></p>
+                    <p>A fluffy, light cake with the aromatic flavor of matcha green tea.</p>
+                </div>
+                <img src="/public/assets/images/Green Tea Cake 1.png" alt="Green Tea Cake" class="menu-item-image">
+                <button class="add-to-cart">+</button>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-content">
+                    <h4 class="price">$50</h4>
+                    <p><strong>Hot BBQ Chicken Wrap</strong></p>
+                    <p>BBQ chicken wraps are truly bursting with flavor.</p>
+                </div>
+                <img src="/public/assets/images/Hot BBQ Chicken Wrap.png" alt="Hot BBQ Chicken" class="menu-item-image">
+                <button class="add-to-cart">+</button>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-content">
+                    <h4 class="price">$50</h4>
+                    <p><strong>Sweet Potato Pretzel Bagel</strong></p>
+                    <p>These colorful and chewy purple sweet potato pretzels.</p>
+                </div>
+                <img src="/public/assets/images/Sweet Potato Pretzel Bagel 1.png" alt="Sweet Potato Pretzel Bagel" class="menu-item-image">
+                <button class="add-to-cart">+</button>
+            </div>
+        </div>
+
+        <div id="drinks-menu" class="menu-section">
+            <div class="menu-item">
+                <div class="menu-item-content">
+                    <h4><strong class="food-label">Drinks</strong> <span class="item-count">6 items</span></h4>
+                    <h4 class="price">$10</h4>
+                    <p><strong>Misut Cream Tom & Chino</strong></p>
+                    <p>Sweet Tom & Chino with the rich flavor of refined millet powder and vanilla ice cream!</p>
+                </div>
+                <img src="/public/assets/images/Misut Cream Tom & Chino 1.png" alt="Misut Cream Tom & Chino" class="menu-item-image">
+                <button class="add-to-cart">+</button>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-content">
+                    <h4 class="price">$10</h4>
+                    <p><strong>Energetic Berry Tonic</strong></p>
+                    <p>Wonderful, refreshing citrus flavor with a hint of apple cider vinegar and honey.</p>
+                </div>
+                <img src="/public/assets/images/Energetic Berry Tonic 1.png" alt="Energetic Berry Tonic" class="menu-item-image">
+                <button class="add-to-cart">+</button>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-content">
+                    <h4 class="price">$10</h4>
+                    <p><strong>Cold Brew Yirgacheffe</strong></p>
+                    <p>Vibrant, floral aroma that captivates from the first whiff.</p>
+                </div>
+                <img src="/public/assets/images/Cold Brew Yirgacheffe 1.png" alt="Cold Brew Yirgacheffe" class="menu-item-image">
+                <button class="add-to-cart">+</button>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-content">
+                    <h4 class="price">$10</h4>
+                    <p><strong>Cold Brew Latte</strong></p>
+                    <p>Velvety smooth and creamy, a perfect combination of cold brew coffee and milk.</p>
+                </div>
+                <img src="/public/assets/images/Cold Brew Latte 1.png" alt="Cold Brew Latte" class="menu-item-image">
+                <button class="add-to-cart">+</button>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-content">
+                    <h4 class="price">$10</h4>
+                    <p><strong>Energetic Fine Tonic</strong></p>
+                    <p>Formulated with a blend of natural ingredients, including metabolism-boosting herbs, antioxidants, and digestive aids.</p>
+                </div>
+                <img src="/public/assets/images/Energetic Fine Tonic 1.png" alt="Energetic Fine Tonic" class="menu-item-image">
+                <button class="add-to-cart">+</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="/public/scripts/home.js"></script>
+</body>
+</html>
