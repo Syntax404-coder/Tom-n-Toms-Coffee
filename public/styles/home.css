@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #FFFBF5;
+    color: #201D1B;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+header {
+    height: 120px; 
+    padding: 10px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100%;
+    padding: 10px 15px;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.cafe-logo {
+    width: 135px;
+    height: auto;
+}
+
+.cart-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart-icon {
+    width: 23px;
+    height: 23px;
+}
+
+.cart-count {
+    background-color: transparent;
+    color: #00295D;
+    font-weight: bold;
+    width: 24px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FFFBF5;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.cafe-image {
+    margin-top: 0;
+    height: 200px;
+}
+
+.cafe-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.table-info {
+    padding: 10px 15px;
+    background-color: #FFFBF5;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-info img {
+    width: 14px;
+    height: 15px;
+    margin-right: 8px;
+}
+
+.table-info p {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #201D1B;
+}
+
+.reminders {
+    margin-top: 20px;
+}
+
+.reminders ul {
+    list-style: disc;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #201D1B;
+}
+
+.reminders ul li {
+    margin-bottom: 10px;
+    color: #201D1B;
+}
+
+.menu {
+    background-color: #FFFBF5;
+    padding: 20px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #201D1B;
+}
+
+.menu-tabs {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.menu-tabs button {
+    width: 92px;
+    height: 35px;
+    border: none;
+    padding: 0;
+    font-size: 16px;
+    cursor: pointer;
+    flex: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: #201D1B;
+}
+
+#food-tab {
+    background-color: #00295D;
+    color: #FFFBF5;
+}
+
+#drinks-tab {
+    background-color: #D9D9D9;
+    color: #201D1B;
+}
+
+.menu-tabs::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #ddd;
+}
+
+.menu-section {
+    display: none;
+}
+
+.menu-section.active {
+    display: block;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 0;
+    border-bottom: 2px solid #ddd;
+    position: relative;
+}
+
+.roasted-chicken-wrap img {
+    margin-top: 30px; 
+}
+
+.menu-item-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: #201D1B;
+}
+
+.menu-item-content h4.price {
+    margin-bottom: 15px;
+    color: #201D1B;
+}
+
+.menu-item-content p {
+    margin-bottom: 5px;
+    color: #201D1B;
+}
+
+.menu-item img.menu-item-image {
+    width: 170px;
+    height: auto;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+.add-to-cart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    color: #00295D;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 50%;
+    width: 30px; 
+    height: 30px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-to-cart.active {
+    background-color: #00295D;
+    color: #FFFBF5;
+    font-size: 20px; 
+}
+
+
+.add-to-cart:hover {
+    background-color: #004B87;
+}
+
+.price {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #201D1B;
+}
+
+.food-label {
+    font-weight: bold;
+    font-size: 18px;
+    color: #201D1B;
+}
+
+.item-count {
+    font-weight: normal;
+    font-size: 12px;
+    color: #201D1B;
+}
+
+.add-to-cart.active {
+    font-size: 10px; 
+}
