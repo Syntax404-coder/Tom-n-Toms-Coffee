@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Helvetica, sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+  }
+  .checkout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 360px;
+    margin: 0 auto; 
+}
+
+.checkout-name {
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-weight: bold;
+    color: #201D1B;
+    opacity: 0;
+}
+
+.checkout-x {
+  font-size: 24px;
+  cursor: pointer;
+  color: #000;
+  margin-left: 20px;
+  height: 27px;
+  width: 27px;
+}
+
+
+header {
+    max-width: 430px;
+    padding: 10px;
+    border:0px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #00000024;
+    background-color: white;
+    height: 160px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+.a {
+  font-family: Helvetica, sans-serif;
+  font-weight: normal; 
+  font-size: 16px;
+  line-height: 1.2; 
+  letter-spacing: 0; 
+}
+
+.a-icon{
+  height: 16px;
+  width: 18px;
+  background-color: red;
+
+}
+  .container {
+    max-width: 430px;
+    height: 600px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .thankyou-text p {
+    color: #CF7742;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .table-number {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .qr-code img {
+    width: 316px;
+    height: 316px;
+    margin-bottom: 20px;
+  }
+
+  .order-summary {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between items */
+    text-align: left;
+    max-width: 316px;
+    justify-content: center;
+    margin: auto;
+    
+  }
+  
+  .order-summary p {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #201D1B;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .order-summary span {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #201D1B;
+    align-self: flex-end;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .item span{
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    color: #201d1b62;
+  }
+  
+  .total-price {
+    font-size: 22px;
+    color: #333;
+  }
+  
