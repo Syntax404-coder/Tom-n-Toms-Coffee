@@ -1,11 +1,13 @@
-#🍩 The [NOT OFFICIAL] Tom n Toms Shop Website 🍵#
-I’m currently working on an imitation of the popular café chain Tom n Toms ☕🍞. This project is a work-in-progress, aiming to recreate the look and feel of the shop's official website with a few personal touches and enhancements.
+🍩 The [NOT OFFICIAL] Tom n Toms Shop Website 🍵
+Our team is currently working on an imitation of the popular café chain Tom n Toms ☕🍞. This project is a collaborative effort, and our goal is to replicate the design and functionality of the original website while incorporating a few unique features and improvements.
 
-📝 Why I Chose It:
-I chose this project because I wanted to challenge myself by replicating a well-established commercial site. Tom n Toms has a visually appealing, clean, and modern design that's perfect for sharpening my web development skills 🖥️, especially with HTML, CSS, and JavaScript. Plus, the site’s content includes menus, locations, and customer service pages, providing an opportunity to practice structuring complex content efficiently.
+📝 Why We Chose It:
+As a team, we wanted a project that would allow us to challenge ourselves by working with an existing real-world commercial website. Tom n Toms has a sleek, modern design that makes it perfect for practicing various web development skills like HTML, CSS, and JavaScript. The site’s complexity – with features like menus, locations, and customer service options – offers the opportunity for each team member to focus on different aspects of the project, such as design, front-end functionality, and content structuring 🖥️.
 
 🚧 Current Status:
-🔧 Currently working on the layout and responsiveness.
-🎨 Planning to optimize for mobile viewing.
-🛠️ Adding some interactive elements and animations.
-Stay tuned for updates as I continue developing the site and experimenting with new features!
+🔧 We are actively working on building the layout and ensuring responsiveness across different devices.
+🎨 One of our goals is to improve mobile compatibility and make the site user-friendly on smaller screens.
+🛠️ We are also integrating interactive elements like hover effects, buttons, and animations.
+Each team member is contributing their unique skills, and we're continuously collaborating to bring this imitation to life. Stay tuned for updates as we continue to refine and develop the project!
+
+This version reflects the collaborative nature of the work while maintaining the fun and informative tone!
