@@ -10,5 +10,5 @@ As a team, we wanted a project that would allow us to challenge ourselves by wor
 - 🎨 One of our goals is to improve **mobile compatibility** and make the site user-friendly on smaller screens.
 - 🛠️ We are also integrating **interactive elements** like hover effects, buttons, and animations.
 
-Each team member is contributing their unique skills, and we're continuously collaborating to bring this imitation to life. Stay tuned for updates as we continue to refine and develop the project!
+Stay tuned for updates as we continue to refine and develop the project!
 
